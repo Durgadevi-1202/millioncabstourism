@@ -1,0 +1,1939 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Million cabs Tourism</title>
+    <!-- favicons Icons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png" />
+    <link rel="manifest" href="assets/images/favicons/site.webmanifest" />
+    <meta name="description" content="Trevlo is a modern HTML Template for Beauty, Spa Centers, Hair, Nail, Spa Salons & Cosmetic shops. The template perfectly fits Beauty Spa, Salon, and Wellness Treatments websites and businesses." />
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/vendors/bootstrap-select/bootstrap-select.min.css" />
+    <link rel="stylesheet" href="assets/vendors/animate/animate.min.css" />
+    <link rel="stylesheet" href="assets/vendors/fontawesome/css/all.min.css" />
+    <link rel="stylesheet" href="assets/vendors/jquery-ui/jquery-ui.css" />
+    <link rel="stylesheet" href="assets/vendors/jarallax/jarallax.css" />
+    <link rel="stylesheet" href="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.css" />
+    <link rel="stylesheet" href="assets/vendors/nouislider/nouislider.min.css" />
+    <link rel="stylesheet" href="assets/vendors/nouislider/nouislider.pips.css" />
+    <link rel="stylesheet" href="assets/vendors/tiny-slider/tiny-slider.css" />
+    <link rel="stylesheet" href="assets/vendors/trevlo-icons/style.css" />
+    <link rel="stylesheet" href="assets/vendors/trevlo-one-icons/style.css" />
+    <link rel="stylesheet" href="assets/vendors/daterangepicker-master/daterangepicker.css" />
+    <link rel="stylesheet" href="assets/vendors/owl-carousel/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="assets/vendors/owl-carousel/css/owl.theme.default.min.css" />
+
+    <!-- template styles -->
+    <link rel="stylesheet" href="assets/css/trevlo.css" />
+    <link rel="stylesheet" href="assets/css/color-1.css" />
+    <style>
+  /* Destination Cards - Full Image & Same Alignment */
+.destination-three .destination-one__card {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 15px;
+}
+.destination-one__card-img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+.destination-three .destination-one__card-img-box {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+/* Show complete image */
+.destination-three .destination-one__card-img {
+    width: 100% !important;
+    height: auto !important;
+    min-height: 0 !important;
+    object-fit: contain !important;
+    object-position: center !important;
+    display: block;
+}
+
+/* Keep overlay inside card */
+.destination-three .destination-one__card-overlay {
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+/* Prevent destination title from getting cut */
+.destination-three .destination-one__card-title {
+    white-space: normal;
+    overflow: visible;
+    text-overflow: unset;
+}
+
+/* Desktop alignment */
+@media (min-width: 1200px) {
+    .destination-three .destination-one__card-img-box {
+        min-height: 300px;
+    }
+
+    .destination-three .destination-one__card-img {
+        min-height: 300px !important;
+        object-fit: cover !important;
+    }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1199px) {
+    .destination-three .destination-one__card-img-box {
+        min-height: 280px;
+    }
+
+    .destination-three .destination-one__card-img {
+        min-height: 280px !important;
+        object-fit: cover !important;
+    }
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+    .destination-three .destination-one__card-img-box {
+        min-height: auto;
+    }
+
+    .destination-three .destination-one__card-img {
+        width: 100% !important;
+        height: auto !important;
+        object-fit: contain !important;
+    }
+}.footer-map {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.footer-map iframe {
+    width: 100%;
+    height: 300px;
+    display: block;
+    border: 0;
+}
+
+@media (max-width: 767px) {
+    .footer-map iframe {
+        height: 250px;
+    }
+}
+    </style>
+</head>
+
+<body class="custom-cursor">
+
+    <div class="custom-cursor__cursor"></div>
+    <div class="custom-cursor__cursor-two"></div>
+
+    <div class="preloader">
+        <div class="preloader__image" style="background-image: url(assets/images/loader-2.png);"></div>
+    </div>
+    <!-- /.preloader -->
+    <div class="page-wrapper">
+        <header class="main-header main-header--four sticky-header sticky-header--normal sticky-header--four">
+            <div class="topbar-two">
+                <div class="container">
+                    <div class="topbar-two__inner">
+                        <div class="topbar-two__left">
+                            <ul class="topbar-two__info list-unstyled">
+                                <li class="topbar-two__info-item">
+                                    <span class="topbar-two__info-icon trevlo-one-icon-telephone"></span>
+                                    <a href="tel:+919003141664" class="topbar-two__info-text">90031 41664</a>
+                                </li>
+                                 <li class="topbar-two__info-item">
+                                    <span class="topbar-two__info-icon trevlo-one-icon-telephone"></span>
+                                    <a href="tel:+919940284248" class="topbar-two__info-text">9940284248</a>
+                                </li>
+                                <li class="topbar-two__info-item">
+                                    <span class="topbar-two__info-icon icon-location-1"></span>
+                                    <span class="topbar-two__info-text">31/36, N Block, Muthamizh Street, MMDA Colony, Arumbakkam, Chennai - 106
+(Near by Corporation School)</span>
+                                </li>
+                            </ul><!-- /.topbar-two__info -->
+                        </div><!-- /.topbar-two__left -->
+                        <div class="topbar-two__right">
+                            <div class="social-links">
+                                
+                                <a href="https://www.instagram.com/millioncabtourism?igsi=Z2k2enQ5MW50eTd2">
+                                    <i class="fab fa-instagram" aria-hidden="true"></i>
+                                    <span class="sr-only">Instagram</span>
+                                </a>
+                                
+
+                            </div><!-- /.social-links -->
+                        </div><!-- /.topbar-two__right -->
+                    </div><!-- /.topbar-two__inner -->
+                </div><!-- /.container -->
+            </div><!-- /.topbar-two -->
+            <div class="container">
+                <div class="main-header__inner">
+                    <div class="main-header__logo">
+                        <a href="#">
+                            <img src="assets/images/logo-dark-2.png" alt="Trevlo HTML" width="187">
+                        </a>
+                    </div><!-- /.main-header__logo -->
+                    <div class="main-header__right">
+                        <nav class="main-header__nav main-menu">
+                            <ul class="main-menu__list">
+
+
+                                <li class="megamenu megamenu-clickable megamenu-clickable--toggler">
+                                    <a href="#">Home</a>
+                                    
+                                </li>
+
+                                <li>
+                                    <a href="#">About</a>
+                                </li>
+                                <li >
+                                    <a href="#">Destinations</a>
+                                   
+                                </li>
+                                <li >
+                                    <a href="#">Tours</a>
+                                   
+                                </li>
+                               
+                                
+                                <li>
+                                    <a href="#">Contact</a>
+                                </li>
+                            </ul>
+                        </nav><!-- /.main-header__nav -->
+                        <div class="mobile-nav__btn mobile-nav__toggler">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div><!-- /.mobile-nav__toggler -->
+                        
+                        <div class="main-header__phone">
+                            <div class="main-header__phone-icon">
+                                <span class="trevlo-one-icon-telephone"></span>
+                            </div>
+                            <div class="main-header__phone-text">
+                                <p class="main-header__phone-title">Call Anytime</p>
+                                <h4 class="main-header__phone-number"><a href="tel:+88012365499">+88 0123 654 99</a></h4>
+                            </div>
+                        </div><!-- /.main-header__phone -->
+                    </div><!-- /.main-header__right -->
+                </div><!-- /.main-header__inner -->
+            </div><!-- /.container-fluid -->
+            <img src="assets/images/shapes/main-header-shape-4-1.png" alt="shape" class="main-header__shape">
+        </header><!-- /.main-header -->
+
+        <!-- main-slider-start -->
+        <section class="main-slider-four">
+            <div class="main-slider-four__carousel trevlo-owl__carousel owl-carousel owl-theme" data-owl-options='{
+		"items": 1,
+		"margin": 0,
+		"loop": true,
+		"smartSpeed": 700,
+		"animateOut": "fadeOut",
+		"autoplayTimeout": 5000, 
+		"nav": true,
+		"navText": ["<span class=\"icon-left-arrow\"></span>","<span class=\"icon-right-arrow\"></span>"],
+		"dots": false,
+		"autoplay": true
+		}'>
+                <div class="item">
+                    <div class="main-slider-four__image" style="background-image: url(assets/images/backgrounds/slider-4-1.jpg);"></div>
+                    <div class="container">
+                        <div class="main-slider-four__row row gutter-y-50 align-items-center">
+                            <div class="col-xl-9 col-lg-8">
+                               <div class="main-slider-four__content">
+    <h5 class="main-slider-four__sub-title">Welcome to Million Cabs</h5>
+
+    <h3 class="main-slider-four__title">
+        Your Journey,<br> Our Priority
+    </h3>
+
+    <p class="main-slider-four__text">
+        24 Hours Cab Service for Local and Outstation Trips.
+        Cab Hire, Car Rental and Tour Packages Available All Over Tamil Nadu.
+    </p>
+</div>
+                            </div><!-- /.col-xl-9 col-lg-4 -->
+                            <div class="col-xl-3 col-lg-4">
+                                <div class="main-slider-four__video">
+                                    <!-- <a href="https://www.youtube.com/watch?v=h9MbznbxlLc" class="video-btn video-popup">
+                                        <i class="fas fa-play"></i>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </a> -->
+                                </div><!-- /.main-slider-four__video -->
+                            </div><!-- /.col-xl-3 col-lg-4 -->
+                        </div><!-- /.row -->
+                    </div>
+                </div><!-- item -->
+                <div class="item">
+                    <div class="main-slider-four__image" style="background-image: url(assets/images/backgrounds/slider-4-2.jpg);"></div>
+                    <div class="container">
+                        <div class="main-slider-four__row row gutter-y-50 align-items-center">
+                            <div class="col-xl-9 col-lg-8">
+                                <div class="main-slider-four__content">
+<h5 class="main-slider-four__sub-title">Welcome to Your Travel Partner</h5>
+    <h3 class="main-slider-four__title">
+        Ride More,<br> Explore More
+    </h3>
+
+    <p class="main-slider-four__text">
+        Enjoy hassle-free cab services, comfortable rides and
+        exciting tour packages. Travel across Tamil Nadu with
+        Million Cabs – your trusted travel partner.
+    </p>
+</div>
+                            </div><!-- /.col-xl-9 col-lg-4 -->
+                            <div class="col-xl-3 col-lg-4">
+                                <div class="main-slider-four__video">
+                                    <!-- <a href="https://www.youtube.com/watch?v=h9MbznbxlLc" class="video-btn video-popup">
+                                        <i class="fas fa-play"></i>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </a> -->
+                                </div><!-- /.main-slider-four__video -->
+                            </div><!-- /.col-xl-3 col-lg-4 -->
+                        </div><!-- /.row -->
+                    </div>
+                </div><!-- item -->
+                <div class="item">
+                    <div class="main-slider-four__image" style="background-image: url(assets/images/backgrounds/slider-4-3.jpg);"></div>
+                    <div class="container">
+                        <div class="main-slider-four__row row gutter-y-50 align-items-center">
+                            <div class="col-xl-9 col-lg-8">
+                                <div class="main-slider-four__content">
+    <h5 class="main-slider-four__sub-title">Explore Tamil Nadu With Us</h5>
+
+    <h3 class="main-slider-four__title">
+        Discover Your <br> Favourite Destinations
+    </h3>
+
+    <p class="main-slider-four__text">
+        Explore beautiful destinations across Tamil Nadu with
+        comfortable rides, reliable cab services and customized
+        tour packages from Million Cabs.
+    </p>
+</div>
+                            </div><!-- /.col-xl-9 col-lg-4 -->
+                            <div class="col-xl-3 col-lg-4">
+                                <div class="main-slider-four__video">
+                                    <!-- <a href="https://www.youtube.com/watch?v=h9MbznbxlLc" class="video-btn video-popup">
+                                        <i class="fas fa-play"></i>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </a> -->
+                                </div><!-- /.main-slider-four__video -->
+                            </div><!-- /.col-xl-3 col-lg-4 -->
+                        </div><!-- /.row -->
+                    </div>
+                </div><!-- item -->
+            </div><!-- banner-slider -->
+            
+            <!-- banner-form -->
+        </section>
+        <!-- main-slider-end -->
+
+ 
+
+       <section class="about-five section-space">
+    <div class="container">
+        <div class="row gutter-y-50">
+
+            <div class="col-lg-6 wow fadeInLeft" data-wow-duration="1500ms">
+                <div class="about-five__image">
+                    <div class="about-five__image__one">
+                        <div class="about-five__image__one__inner">
+                            <img src="assets/images/about/about-5-1.jpg" alt="Million Cabs">
+                        </div>
+                    </div>
+
+                    <div class="about-five__image__two">
+                        <div class="about-five__image__two__inner">
+                            <img src="assets/images/about/about-5-2.jpg" alt="Cab Tourism">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 wow fadeInRight" data-wow-duration="1500ms">
+                <div class="about-five__content">
+
+                    <div class="sec-title sec-title--two text-left">
+                        <p class="sec-title__tagline">About Million Cabs</p>
+
+                        <h2 class="sec-title__title">
+                            Your Trusted Partner <br>
+                            For Every Journey
+                        </h2>
+                    </div>
+
+                    <p class="about-five__text">
+                        Million Cabs provides reliable and comfortable cab
+                        services for local and outstation travel across Tamil Nadu.
+                        From daily rides and airport transfers to tour packages,
+                        we make every journey safe, convenient and hassle-free.
+                    </p>
+
+                    <ul class="about-five__list">
+                        <li>
+                            <i class="trevlo-one-icon-check-2"></i>
+                            24 Hours Cab Service
+                        </li>
+                        <li>
+                            <i class="trevlo-one-icon-check-2"></i>
+                            Local & Outstation Trips
+                        </li>
+                        <li>
+                            <i class="trevlo-one-icon-check-2"></i>
+                            Comfortable & Safe Travel
+                        </li>
+                        <li>
+                            <i class="trevlo-one-icon-check-2"></i>
+                            Affordable Pricing
+                        </li>
+                        <li>
+                            <i class="trevlo-one-icon-check-2"></i>
+                            Tour Packages Available
+                        </li>
+                        <li>
+                            <i class="trevlo-one-icon-check-2"></i>
+                            All Over Tamil Nadu
+                        </li>
+                    </ul>
+
+                    <div class="about-five__bottom">
+                        <a href="contact.html"
+                           class="trevlo-btn trevlo-btn--two trevlo-btn--base">
+                            <span>Book Your Ride</span>
+                            <i class="trevlo-one-icon-up-right-arrow"></i>
+                        </a>
+
+                        <div class="about-five__phone">
+                            <div class="about-five__phone__icon">
+                                <span class="trevlo-one-icon-telephone"></span>
+                            </div>
+
+                            <div class="about-five__phone__text">
+                                <p class="about-five__phone__title">Call Us Now</p>
+                                <h4 class="about-five__phone__number">
+                                    <a href="tel:+919003141664">90031 41664</a>
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="about-five__shape-box">
+        <img src="assets/images/shapes/about-sun-5-1.png"
+             alt="sun" class="about-five__sun">
+
+        <img src="assets/images/shapes/about-parashoot-5-1.png"
+             alt="parashoot" class="about-five__parashoot">
+
+        <img src="assets/images/shapes/about-shape-5-1.png"
+             alt="lamp" class="about-five__shape">
+    </div>
+</section>
+<section class="tour-listing-five section-space">
+    <div class="container">
+
+        <div class="tour-listing-five__top">
+            <div class="row gutter-y-40 align-items-center">
+
+                <div class="col-lg-8">
+                    <div class="sec-title sec-title--two text-left">
+
+                        <p class="sec-title__tagline">Our Services</p>
+
+                        <h2 class="sec-title__title">
+                            Reliable Travel Services <br>
+                            For Every Journey
+                        </h2>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="tour-listing-five__custom-navs"></div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row g-0">
+            <div class="col-lg-12">
+
+                <div class="trevlo-stretch-element-inside-column">
+
+                    <div class="tour-listing-five__carousel trevlo-owl__carousel trevlo-owl__carousel--basic-nav trevlo-owl__carousel--with-shadow owl-theme owl-carousel"
+                        data-owl-options='{
+                            "items": 3,
+                            "margin": 30,
+                            "smartSpeed": 700,
+                            "loop": true,
+                            "autoplay": 6000,
+                            "nav": true,
+                            "dots": false,
+                            "navContainer": ".tour-listing-five__custom-navs",
+                            "navText": [
+                                "<span class=\"icon-left-arrow\"></span>",
+                                "<span class=\"icon-right-arrow\"></span>"
+                            ],
+                            "responsive": {
+                                "0": {
+                                    "items": 1
+                                },
+                                "576": {
+                                    "items": 1.4
+                                },
+                                "768": {
+                                    "items": 1.9
+                                },
+                                "992": {
+                                    "items": 2.4
+                                },
+                                "1200": {
+                                    "items": 2.9
+                                },
+                                "1400": {
+                                    "items": 3.3
+                                },
+                                "1600": {
+                                    "items": 3.9
+                                }
+                            }
+                        }'>
+
+                        <!-- Service 1 -->
+                        <div class="item">
+                            <div class="tour-listing-five__card">
+
+                                <div class="tour-listing-five__card__bg"
+                                    style="background-image: url(assets/images/shapes/tour-shape-bg-5-1.png);">
+                                </div>
+
+                                <div class="tour-listing-five__card__inner">
+
+                                    <a href="#" class="tour-listing-five__card__image">
+                                        <img src="assets/images/tours/tour-6-1.jpg"
+                                            alt="Vehicle Rentals">
+
+                                        <div class="tour-listing-five__card__featured">
+                                            Featured
+                                        </div>
+
+                                        <div class="tour-listing-five__card__overlay">
+                                            <span class="tour-listing-five__card__plus">
+                                                <i class="icon-plus"></i>
+                                            </span>
+                                        </div>
+                                    </a>
+
+                                    <div class="tour-listing-five__card__content">
+
+                                        <div class="tour-listing-five__card__ratings">
+                                            <div class="trevlo-ratings">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+
+                                            <p class="tour-listing-five__card__ratings__text">
+                                                Trusted Service
+                                            </p>
+                                        </div>
+
+                                        <h3 class="tour-listing-five__card__title">
+                                            <a href="#">Vehicle Rentals</a>
+                                        </h3>
+
+                                        <div class="tour-listing-five__card__location">
+                                            <span class="tour-listing-five__card__location__icon">
+                                                <i class="trevlo-one-icon-maps-and-flags"></i>
+                                            </span>
+
+                                            <p class="tour-listing-five__card__location__text">
+                                                Comfortable vehicles for local and outstation travel
+                                            </p>
+                                        </div>
+
+                                        <div class="tour-listing-five__card__bottom">
+
+                                            <div class="tour-listing-five__card__price-box">
+                                                <p class="tour-listing-five__card__price-title">
+                                                    Service
+                                                </p>
+
+                                                <h4 class="tour-listing-five__card__price">
+                                                    Available
+                                                </h4>
+                                            </div>
+
+                                            <div class="tour-listing-five__card__btn-group">
+                                                <a href="contact.html"
+                                                    class="tour-listing-five__card__popup-btn">
+                                                    <span class="icon-right-arrow"></span>
+                                                </a>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- Service 2 -->
+                        <div class="item">
+                            <div class="tour-listing-five__card">
+
+                                <div class="tour-listing-five__card__bg"
+                                    style="background-image: url(assets/images/shapes/tour-shape-bg-5-1.png);">
+                                </div>
+
+                                <div class="tour-listing-five__card__inner">
+
+                                    <a href="#" class="tour-listing-five__card__image">
+                                        <img src="assets/images/tours/tour-7-2.jpg"
+                                            alt="Car Rental">
+
+                                        <div class="tour-listing-five__card__featured">
+                                            Popular
+                                        </div>
+
+                                        <div class="tour-listing-five__card__overlay">
+                                            <span class="tour-listing-five__card__plus">
+                                                <i class="icon-plus"></i>
+                                            </span>
+                                        </div>
+                                    </a>
+
+                                    <div class="tour-listing-five__card__content">
+
+                                        <div class="tour-listing-five__card__ratings">
+                                            <div class="trevlo-ratings">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+
+                                            <p class="tour-listing-five__card__ratings__text">
+                                                Trusted Service
+                                            </p>
+                                        </div>
+
+                                        <h3 class="tour-listing-five__card__title">
+                                            <a href="#">Car Rental</a>
+                                        </h3>
+
+                                        <div class="tour-listing-five__card__location">
+                                            <span class="tour-listing-five__card__location__icon">
+                                                <i class="trevlo-one-icon-maps-and-flags"></i>
+                                            </span>
+
+                                            <p class="tour-listing-five__card__location__text">
+                                                Affordable and comfortable cars for every trip
+                                            </p>
+                                        </div>
+
+                                        <div class="tour-listing-five__card__bottom">
+
+                                            <div class="tour-listing-five__card__price-box">
+                                                <p class="tour-listing-five__card__price-title">
+                                                    Service
+                                                </p>
+
+                                                <h4 class="tour-listing-five__card__price">
+                                                    Available
+                                                </h4>
+                                            </div>
+
+                                            <div class="tour-listing-five__card__btn-group">
+                                                <a href="contact.html"
+                                                    class="tour-listing-five__card__popup-btn">
+                                                    <span class="icon-right-arrow"></span>
+                                                </a>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- Service 3 -->
+                        <div class="item">
+                            <div class="tour-listing-five__card">
+
+                                <div class="tour-listing-five__card__bg"
+                                    style="background-image: url(assets/images/shapes/tour-shape-bg-5-1.png);">
+                                </div>
+
+                                <div class="tour-listing-five__card__inner">
+
+                                    <a href="#" class="tour-listing-five__card__image">
+                                        <img src="assets/images/tours/tour-6-3.jpg"
+                                            alt="Outstation Cab Service">
+
+                                        <div class="tour-listing-five__card__featured">
+                                            Featured
+                                        </div>
+
+                                        <div class="tour-listing-five__card__overlay">
+                                            <span class="tour-listing-five__card__plus">
+                                                <i class="icon-plus"></i>
+                                            </span>
+                                        </div>
+                                    </a>
+
+                                    <div class="tour-listing-five__card__content">
+
+                                        <div class="tour-listing-five__card__ratings">
+                                            <div class="trevlo-ratings">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+
+                                            <p class="tour-listing-five__card__ratings__text">
+                                                Trusted Service
+                                            </p>
+                                        </div>
+
+                                        <h3 class="tour-listing-five__card__title">
+                                            <a href="#">Outstation Cab Service</a>
+                                        </h3>
+
+                                        <div class="tour-listing-five__card__location">
+                                            <span class="tour-listing-five__card__location__icon">
+                                                <i class="trevlo-one-icon-maps-and-flags"></i>
+                                            </span>
+
+                                            <p class="tour-listing-five__card__location__text">
+                                                Safe and reliable journeys across Tamil Nadu
+                                            </p>
+                                        </div>
+
+                                        <div class="tour-listing-five__card__bottom">
+
+                                            <div class="tour-listing-five__card__price-box">
+                                                <p class="tour-listing-five__card__price-title">
+                                                    Service
+                                                </p>
+
+                                                <h4 class="tour-listing-five__card__price">
+                                                    Available
+                                                </h4>
+                                            </div>
+
+                                            <div class="tour-listing-five__card__btn-group">
+                                                <a href="contact.html"
+                                                    class="tour-listing-five__card__popup-btn">
+                                                    <span class="icon-right-arrow"></span>
+                                                </a>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- Service 4 -->
+                        <div class="item">
+                            <div class="tour-listing-five__card">
+
+                                <div class="tour-listing-five__card__bg"
+                                    style="background-image: url(assets/images/shapes/tour-shape-bg-5-1.png);">
+                                </div>
+
+                                <div class="tour-listing-five__card__inner">
+
+                                    <a href="#" class="tour-listing-five__card__image">
+                                        <img src="assets/images/tours/tour-7-4.jpg"
+                                            alt="Tempo Traveller Rental">
+
+                                        <div class="tour-listing-five__card__featured">
+                                            Popular
+                                        </div>
+
+                                        <div class="tour-listing-five__card__overlay">
+                                            <span class="tour-listing-five__card__plus">
+                                                <i class="icon-plus"></i>
+                                            </span>
+                                        </div>
+                                    </a>
+
+                                    <div class="tour-listing-five__card__content">
+
+                                        <div class="tour-listing-five__card__ratings">
+                                            <div class="trevlo-ratings">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+
+                                            <p class="tour-listing-five__card__ratings__text">
+                                                Trusted Service
+                                            </p>
+                                        </div>
+
+                                        <h3 class="tour-listing-five__card__title">
+                                            <a href="#">Tempo Traveller Rental</a>
+                                        </h3>
+
+                                        <div class="tour-listing-five__card__location">
+                                            <span class="tour-listing-five__card__location__icon">
+                                                <i class="trevlo-one-icon-maps-and-flags"></i>
+                                            </span>
+
+                                            <p class="tour-listing-five__card__location__text">
+                                                Spacious vehicles for family and group trips
+                                            </p>
+                                        </div>
+
+                                        <div class="tour-listing-five__card__bottom">
+
+                                            <div class="tour-listing-five__card__price-box">
+                                                <p class="tour-listing-five__card__price-title">
+                                                    Service
+                                                </p>
+
+                                                <h4 class="tour-listing-five__card__price">
+                                                    Available
+                                                </h4>
+                                            </div>
+
+                                            <div class="tour-listing-five__card__btn-group">
+                                                <a href="contact.html"
+                                                    class="tour-listing-five__card__popup-btn">
+                                                    <span class="icon-right-arrow"></span>
+                                                </a>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- Service 5 -->
+                        <div class="item">
+                            <div class="tour-listing-five__card">
+
+                                <div class="tour-listing-five__card__bg"
+                                    style="background-image: url(assets/images/shapes/tour-shape-bg-5-1.png);">
+                                </div>
+
+                                <div class="tour-listing-five__card__inner">
+
+                                    <a href="#" class="tour-listing-five__card__image">
+                                        <img src="assets/images/tours/tour-7-3.jpg"
+                                            alt="Local Car Rental">
+
+                                        <div class="tour-listing-five__card__featured">
+                                            Available
+                                        </div>
+
+                                        <div class="tour-listing-five__card__overlay">
+                                            <span class="tour-listing-five__card__plus">
+                                                <i class="icon-plus"></i>
+                                            </span>
+                                        </div>
+                                    </a>
+
+                                    <div class="tour-listing-five__card__content">
+
+                                        <div class="tour-listing-five__card__ratings">
+                                            <div class="trevlo-ratings">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+
+                                            <p class="tour-listing-five__card__ratings__text">
+                                                Trusted Service
+                                            </p>
+                                        </div>
+
+                                        <h3 class="tour-listing-five__card__title">
+                                            <a href="#">Local Car Rental</a>
+                                        </h3>
+
+                                        <div class="tour-listing-five__card__location">
+                                            <span class="tour-listing-five__card__location__icon">
+                                                <i class="trevlo-one-icon-maps-and-flags"></i>
+                                            </span>
+
+                                            <p class="tour-listing-five__card__location__text">
+                                                Convenient cab services for city travel
+                                            </p>
+                                        </div>
+
+                                        <div class="tour-listing-five__card__bottom">
+
+                                            <div class="tour-listing-five__card__price-box">
+                                                <p class="tour-listing-five__card__price-title">
+                                                    Service
+                                                </p>
+
+                                                <h4 class="tour-listing-five__card__price">
+                                                    Available
+                                                </h4>
+                                            </div>
+
+                                            <div class="tour-listing-five__card__btn-group">
+                                                <a href="contact.html"
+                                                    class="tour-listing-five__card__popup-btn">
+                                                    <span class="icon-right-arrow"></span>
+                                                </a>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- Service 6 -->
+                        <div class="item">
+                            <div class="tour-listing-five__card">
+
+                                <div class="tour-listing-five__card__bg"
+                                    style="background-image: url(assets/images/shapes/tour-shape-bg-5-1.png);">
+                                </div>
+
+                                <div class="tour-listing-five__card__inner">
+
+                                    <a href="#" class="tour-listing-five__card__image">
+                                        <img src="assets/images/tours/tour-6-2.jpg"
+                                            alt="Tour Packages">
+
+                                        <div class="tour-listing-five__card__featured">
+                                            Featured
+                                        </div>
+
+                                        <div class="tour-listing-five__card__overlay">
+                                            <span class="tour-listing-five__card__plus">
+                                                <i class="icon-plus"></i>
+                                            </span>
+                                        </div>
+                                    </a>
+
+                                    <div class="tour-listing-five__card__content">
+
+                                        <div class="tour-listing-five__card__ratings">
+                                            <div class="trevlo-ratings">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+
+                                            <p class="tour-listing-five__card__ratings__text">
+                                                Trusted Service
+                                            </p>
+                                        </div>
+
+                                        <h3 class="tour-listing-five__card__title">
+                                            <a href="#">Tour Packages</a>
+                                        </h3>
+
+                                        <div class="tour-listing-five__card__location">
+                                            <span class="tour-listing-five__card__location__icon">
+                                                <i class="trevlo-one-icon-maps-and-flags"></i>
+                                            </span>
+
+                                            <p class="tour-listing-five__card__location__text">
+                                                Customized tour packages across Tamil Nadu
+                                            </p>
+                                        </div>
+
+                                        <div class="tour-listing-five__card__bottom">
+
+                                            <div class="tour-listing-five__card__price-box">
+                                                <p class="tour-listing-five__card__price-title">
+                                                    Service
+                                                </p>
+
+                                                <h4 class="tour-listing-five__card__price">
+                                                    Available
+                                                </h4>
+                                            </div>
+
+                                            <div class="tour-listing-five__card__btn-group">
+                                                <a href="contact.html"
+                                                    class="tour-listing-five__card__popup-btn">
+                                                    <span class="icon-right-arrow"></span>
+                                                </a>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <img src="assets/images/shapes/tour-shape-5-1.png"
+        alt="shape"
+        class="tour-listing-five__shape">
+
+</section>
+        <section class="why-choose-three">
+    <div class="why-choose-three__bg"
+        style="background-image: url(assets/images/shapes/why-choose-3-bg.png);">
+    </div>
+
+    <div class="container">
+        <div class="row">
+
+            <div class="col-xl-6">
+                <div class="why-choose-three__content">
+
+                    <div class="sec-title text-left">
+
+                        <p class="sec-title__tagline">
+                            Our Benefits List
+                        </p>
+
+                        <h2 class="sec-title__title">
+                            Why You Should Choose<br>
+                            Million Cabs?
+                        </h2>
+
+                    </div>
+
+                    <p class="why-choose-three__content__text">
+                        At Million Cabs, we provide safe, reliable and comfortable
+                        travel services for local and outstation journeys. From car
+                        rentals to Tempo Traveller services, we make every journey
+                        convenient and hassle-free.
+                    </p>
+
+                    <div class="why-choose-three__box-wrapper">
+
+                        <!-- Best Price -->
+                        <div class="why-choose-three__box wow fadeInUp"
+                            data-wow-delay="100ms">
+
+                            <div class="why-choose-three__box__icon">
+                                <span class="icon-airplane-1"></span>
+                            </div>
+
+                            <h3 class="why-choose-three__box__title">
+                                Best Price Guarantee
+                            </h3>
+
+                            <p class="why-choose-three__box__text">
+                                Get affordable and competitive rental rates
+                                without compromising on quality and comfort.
+                            </p>
+
+                        </div>
+
+
+                        <!-- Easy Booking -->
+                        <div class="why-choose-three__box wow fadeInUp"
+                            data-wow-delay="200ms">
+
+                            <div class="why-choose-three__box__icon">
+                                <span class="icon-ticket-1"></span>
+                            </div>
+
+                            <h3 class="why-choose-three__box__title">
+                                Easy & Quick Booking
+                            </h3>
+
+                            <p class="why-choose-three__box__text">
+                                Book your car or Tempo Traveller quickly with
+                                a simple and convenient booking process.
+                            </p>
+
+                        </div>
+
+
+                        <!-- Reliable Service -->
+                        <div class="why-choose-three__box wow fadeInUp"
+                            data-wow-delay="300ms">
+
+                            <div class="why-choose-three__box__icon">
+                                <span class="icon-tour-guide-2"></span>
+                            </div>
+
+                            <h3 class="why-choose-three__box__title">
+                                Safe & Reliable Service
+                            </h3>
+
+                            <p class="why-choose-three__box__text">
+                                Travel with confidence with our dependable
+                                vehicles and professional travel services.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="col-xl-6 wow slideInRight"
+                data-wow-delay="200ms">
+
+                <div class="trevlo-stretch-element-inside-column">
+
+                    <div class="why-choose-three__image">
+
+                        <img src="assets/images/resources/why-choose-3.jpg"
+                            alt="Million Cabs">
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-- Destination Start -->
+<section class="destination-three">
+    <div class="container">
+
+        <div class="sec-title text-center">
+
+            <p class="sec-title__tagline">Explore With Million Cabs</p>
+
+            <h2 class="sec-title__title">
+                Discover Beautiful Destinations <br>
+                Across South India
+            </h2>
+
+        </div>
+
+        <div class="row">
+
+            <!-- =========================
+                 Pondicherry
+            ========================== -->
+            <div class="col-xl-4 col-md-6 wow fadeInUp" data-wow-delay="100ms">
+                <div class="destination-one__card">
+                    <div class="destination-one__card-img-box destination-one__card-img-box--round">
+
+                        <img src="assets/images/destination/destination-3-1.jpg"
+                            alt="Pondicherry"
+                            class="destination-one__card-img destination-one__card-img--round">
+
+                        <div class="destination-one__card-overlay destination-one__card-overlay--round">
+
+                            <div class="destination-one__card-content destination-one__card-content--round">
+
+                                <!-- Book Now -->
+                                <a href="https://wa.me/919003141664?text=Hello%20Million%20Cab%20Tourism%2C%20I%20would%20like%20to%20book%20a%20cab%20for%20Pondicherry.%20Please%20share%20the%20package%20and%20fare%20details."
+                                    target="_blank"
+                                    class="destination-one__card-btn destination-one__card-btn--round trevlo-btn trevlo-btn--base trevlo-btn--base-three">
+                                    <span>BOOK NOW</span>
+                                </a>
+
+                                <h4 class="destination-one__card-title">
+                                    <a href="https://wa.me/919003141664?text=Hello%20Million%20Cab%20Tourism%2C%20I%20would%20like%20to%20book%20a%20cab%20for%20Pondicherry.%20Please%20share%20the%20package%20and%20fare%20details."
+                                        target="_blank">
+                                        Pondicherry
+                                    </a>
+                                </h4>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- =========================
+                 Mahabalipuram
+            ========================== -->
+            <div class="col-xl-3 col-md-6 wow fadeInUp" data-wow-delay="200ms">
+                <div class="destination-one__card">
+                    <div class="destination-one__card-img-box destination-one__card-img-box--round">
+
+                        <img src="assets/images/destination/destination-3-2.jpg"
+                            alt="Mahabalipuram"
+                            class="destination-one__card-img destination-one__card-img--round">
+
+                        <div class="destination-one__card-overlay destination-one__card-overlay--round">
+
+                            <div class="destination-one__card-content destination-one__card-content--round">
+
+                                <!-- Book Now -->
+                                <a href="https://wa.me/919003141664?text=Hello%20Million%20Cab%20Tourism%2C%20I%20would%20like%20to%20book%20a%20cab%20for%20Mahabalipuram.%20Please%20share%20the%20package%20and%20fare%20details."
+                                    target="_blank"
+                                    class="destination-one__card-btn destination-one__card-btn--round trevlo-btn trevlo-btn--base trevlo-btn--base-three">
+                                    <span>BOOK NOW</span>
+                                </a>
+
+                                <h4 class="destination-one__card-title">
+                                    <a href="https://wa.me/919003141664?text=Hello%20Million%20Cab%20Tourism%2C%20I%20would%20like%20to%20book%20a%20cab%20for%20Mahabalipuram.%20Please%20share%20the%20package%20and%20fare%20details."
+                                        target="_blank">
+                                        Mahabalipuram
+                                    </a>
+                                </h4>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- =========================
+                 Rameshwaram
+            ========================== -->
+            <div class="col-xl-5 col-md-6 wow fadeInUp" data-wow-delay="200ms">
+                <div class="destination-one__card">
+                    <div class="destination-one__card-img-box destination-one__card-img-box--round">
+
+                        <img src="assets/images/destination/destination-3-3.jpg"
+                            alt="Rameshwaram"
+                            class="destination-one__card-img destination-one__card-img--round">
+
+                        <div class="destination-one__card-overlay destination-one__card-overlay--round">
+
+                            <div class="destination-one__card-content destination-one__card-content--round">
+
+                                <!-- Book Now -->
+                                <a href="https://wa.me/919003141664?text=Hello%20Million%20Cab%20Tourism%2C%20I%20would%20like%20to%20book%20a%20cab%20for%20Rameshwaram.%20Please%20share%20the%20package%20and%20fare%20details."
+                                    target="_blank"
+                                    class="destination-one__card-btn destination-one__card-btn--round trevlo-btn trevlo-btn--base trevlo-btn--base-three">
+                                    <span>BOOK NOW</span>
+                                </a>
+
+                                <h4 class="destination-one__card-title">
+                                    <a href="https://wa.me/919003141664?text=Hello%20Million%20Cab%20Tourism%2C%20I%20would%20like%20to%20book%20a%20cab%20for%20Rameshwaram.%20Please%20share%20the%20package%20and%20fare%20details."
+                                        target="_blank">
+                                        Rameshwaram
+                                    </a>
+                                </h4>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- =========================
+                 Kottayam
+            ========================== -->
+            <div class="col-xl-5 col-md-6 wow fadeInUp" data-wow-delay="250ms">
+                <div class="destination-one__card">
+                    <div class="destination-one__card-img-box destination-one__card-img-box--round">
+
+                        <img src="assets/images/destination/destination-3-4.jpg"
+                            alt="Kottayam"
+                            class="destination-one__card-img destination-one__card-img--round">
+
+                        <div class="destination-one__card-overlay destination-one__card-overlay--round">
+
+                            <div class="destination-one__card-content destination-one__card-content--round">
+
+                                <!-- Book Now -->
+                                <a href="https://wa.me/919003141664?text=Hello%20Million%20Cab%20Tourism%2C%20I%20would%20like%20to%20book%20a%20cab%20for%20Kottayam.%20Please%20share%20the%20package%20and%20fare%20details."
+                                    target="_blank"
+                                    class="destination-one__card-btn destination-one__card-btn--round trevlo-btn trevlo-btn--base trevlo-btn--base-three">
+                                    <span>BOOK NOW</span>
+                                </a>
+
+                                <h4 class="destination-one__card-title">
+                                    <a href="https://wa.me/919003141664?text=Hello%20Million%20Cab%20Tourism%2C%20I%20would%20like%20to%20book%20a%20cab%20for%20Kottayam.%20Please%20share%20the%20package%20and%20fare%20details."
+                                        target="_blank">
+                                        Kottayam
+                                    </a>
+                                </h4>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- =========================
+                 Sabarimala
+            ========================== -->
+            <div class="col-xl-4 col-md-6 wow fadeInUp" data-wow-delay="300ms">
+                <div class="destination-one__card">
+                    <div class="destination-one__card-img-box destination-one__card-img-box--round">
+
+                        <img src="assets/images/destination/destination-3-5.jpg"
+                            alt="Sabarimala"
+                            class="destination-one__card-img destination-one__card-img--round">
+
+                        <div class="destination-one__card-overlay destination-one__card-overlay--round">
+
+                            <div class="destination-one__card-content destination-one__card-content--round">
+
+                                <!-- Book Now -->
+                                <a href="https://wa.me/919003141664?text=Hello%20Million%20Cab%20Tourism%2C%20I%20would%20like%20to%20book%20a%20cab%20for%20Sabarimala.%20Please%20share%20the%20package%20and%20fare%20details."
+                                    target="_blank"
+                                    class="destination-one__card-btn destination-one__card-btn--round trevlo-btn trevlo-btn--base trevlo-btn--base-three">
+                                    <span>BOOK NOW</span>
+                                </a>
+
+                                <h4 class="destination-one__card-title">
+                                    <a href="https://wa.me/919003141664?text=Hello%20Million%20Cab%20Tourism%2C%20I%20would%20like%20to%20book%20a%20cab%20for%20Sabarimala.%20Please%20share%20the%20package%20and%20fare%20details."
+                                        target="_blank">
+                                        Sabarimala
+                                    </a>
+                                </h4>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- =========================
+                 Kerala
+            ========================== -->
+            
+
+        </div>
+    </div>
+</section>
+<!-- Destination End -->
+
+   
+<!-- Testimonial One End -->
+       <div class="blog-two">
+    <div class="container">
+
+        <div class="sec-title text-center">
+
+            <p class="sec-title__tagline">Travel Tips & Updates</p>
+
+            <h2 class="sec-title__title">
+                Latest Travel News & Tips<br>
+                From Million Cabs
+            </h2>
+
+        </div>
+
+        <div class="blog-two__carousel trevlo-owl__carousel trevlo-owl__carousel--basic-nav owl-theme owl-carousel"
+            data-owl-options='{
+                "items": 2,
+                "margin": 30,
+                "smartSpeed": 700,
+                "loop": false,
+                "autoplay": 6000,
+                "nav": false,
+                "dots": true,
+                "navText": [
+                    "<span class=\"fa fa-angle-left\"></span>",
+                    "<span class=\"fa fa-angle-right\"></span>"
+                ],
+                "responsive": {
+                    "0": {
+                        "items": 1
+                    },
+                    "992": {
+                        "items": 2
+                    }
+                }
+            }'>
+
+            <!-- Blog 1 -->
+            <div class="item">
+                <div class="blog-card-two">
+
+                    <div class="row d-flex align-items-center">
+
+                        <div class="col-md-7">
+
+                            <div class="blog-card-two__content">
+
+                                <div class="blog-card-two__comment">
+                                    <span class="icon-chat"></span>
+                                    Travel Tips
+                                </div>
+
+                                <h3 class="blog-card-two__title">
+                                    <a href="blog-details-right.html">
+                                        Tips for a Safe and Comfortable
+                                        Outstation Journey
+                                    </a>
+                                </h3>
+
+                                <p class="blog-card-two__text">
+                                    Plan your outstation trip with the right
+                                    vehicle, route and travel arrangements for
+                                    a safe and comfortable journey.
+                                </p>
+
+                                <div class="blog-card-two__meta">
+
+                                    <div class="blog-card-two__author">
+
+                                        <img src="assets/images/blog/blog-2-author.jpg"
+                                            alt="Million Cabs">
+
+                                        <h5 class="blog-card-two__author__name">
+                                            <a href="blog-list-right.html">
+                                                Million Cabs
+                                            </a>
+                                        </h5>
+
+                                        <p class="blog-card-two__author__designation">
+                                            Travel Experts
+                                        </p>
+
+                                    </div>
+
+                                    <a href="blog-details-right.html"
+                                        class="blog-card-two__rm">
+                                        <span class="icon-right-arrow"></span>
+                                    </a>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-5">
+
+                            <a href="blog-details-right.html"
+                                class="blog-card-two__image">
+
+                                <img src="assets/images/blog/blog-2-1.jpg"
+                                    alt="Safe and Comfortable Outstation Journey">
+
+                                <div class="blog-card-two__image__overlay">
+                                    <span class="icon-plus"></span>
+                                </div>
+
+                                <div class="blog-card-two__image__date">
+                                    01
+                                    <span class="blog-card-two__image__date__month">
+                                        Travel
+                                    </span>
+                                </div>
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- Blog 2 -->
+            <div class="item">
+                <div class="blog-card-two">
+
+                    <div class="row d-flex align-items-center">
+
+                        <div class="col-md-7">
+
+                            <div class="blog-card-two__content">
+
+                                <div class="blog-card-two__comment">
+                                    <span class="icon-chat"></span>
+                                    Car Rental Guide
+                                </div>
+
+                                <h3 class="blog-card-two__title">
+                                    <a href="blog-details-right.html">
+                                        How to Choose the Right Car
+                                        for Your Travel Needs
+                                    </a>
+                                </h3>
+
+                                <p class="blog-card-two__text">
+                                    From local trips to long-distance travel,
+                                    choose the right vehicle based on your
+                                    comfort, group size and journey needs.
+                                </p>
+
+                                <div class="blog-card-two__meta">
+
+                                    <div class="blog-card-two__author">
+
+                                        <img src="assets/images/blog/blog-2-author.jpg"
+                                            alt="Million Cabs">
+
+                                        <h5 class="blog-card-two__author__name">
+                                            <a href="blog-list-right.html">
+                                                Million Cabs
+                                            </a>
+                                        </h5>
+
+                                        <p class="blog-card-two__author__designation">
+                                            Travel Experts
+                                        </p>
+
+                                    </div>
+
+                                    <a href="blog-details-right.html"
+                                        class="blog-card-two__rm">
+                                        <span class="icon-right-arrow"></span>
+                                    </a>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-5">
+
+                            <a href="blog-details-right.html"
+                                class="blog-card-two__image">
+
+                                <img src="assets/images/blog/blog-2-2.jpg"
+                                    alt="Choose the Right Car Rental">
+
+                                <div class="blog-card-two__image__overlay">
+                                    <span class="icon-plus"></span>
+                                </div>
+
+                                <div class="blog-card-two__image__date">
+                                    02
+                                    <span class="blog-card-two__image__date__month">
+                                        Travel
+                                    </span>
+                                </div>
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+</div>
+
+
+        <!-- Footer Start -->
+<footer class="footer-two">
+
+    <div class="footer-two__inner">
+
+        <div class="footer-two__bg"
+            style="background-image: url(assets/images/shapes/footer-bg-2-1.png);">
+        </div>
+
+        <div class="container">
+
+            <!-- Footer Top -->
+            <!-- <div class="footer-two__top">
+
+                <div class="footer-two__top__bg"
+                    style="background-image: url(assets/images/shapes/footer-top-bg-2-1.png);">
+                </div>
+
+                <div class="footer-two__author">
+
+                    <div class="footer-two__author__image">
+                        <img src="assets/images/resources/author-1.png" alt="customer">
+                        <img src="assets/images/resources/author-2.png" alt="customer">
+                        <img src="assets/images/resources/author-3.png" alt="customer">
+                        <img src="assets/images/resources/author-4.png" alt="customer">
+                    </div>
+
+                    <div class="footer-two__author__text">
+
+                        <h3 class="footer-two__author__total">
+                            1000+
+                        </h3>
+
+                        <h3 class="footer-two__author__title">
+                            Happy Customers
+                        </h3>
+
+                    </div>
+
+                </div>
+
+                <div class="footer-two__image"
+                    style="background-image: url(assets/images/resources/footer-image-2-1.jpg);">
+
+                    <a href="contact.html"
+                        class="trevlo-btn trevlo-btn--two trevlo-btn--white">
+
+                        <span>Book Your Cab</span>
+
+                        <i class="trevlo-one-icon-up-right-arrow"></i>
+
+                    </a>
+
+                </div>
+
+            </div> -->
+
+
+            <!-- Footer Content -->
+            <!-- Footer Contact & Map Start -->
+<div class="row gutter-y-40">
+
+    <!-- Contact -->
+    <div class="col-xl-4 col-lg-6 col-md-6">
+        <div class="footer-widget footer-widget--contact">
+
+            <h2 class="footer-widget__title">Contact Us</h2>
+
+            <ul class="footer-widget__info">
+
+                <li>
+                    <i class="trevlo-one-icon-maps-and-flags"></i>
+                    <span>
+                        31/36, N Block, Muthamizh Street,<br>
+                        MMDA Colony, Arumbakkam,<br>
+                        Chennai - 600106<br>
+                        (Near by Corporation School)
+                    </span>
+                </li>
+
+                <li>
+                    <i class="trevlo-one-icon-telephone"></i>
+                    <a href="tel:+919003141664">
+                        +91 90031 41664
+                    </a>
+                </li>
+
+                <li>
+                    <i class="trevlo-one-icon-telephone"></i>
+                    <a href="tel:+919940284248">
+                        +91 99402 84248
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+    </div>
+
+
+    <!-- Google Map -->
+    <div class="col-xl-8 col-lg-6 col-md-6">
+        <div class="footer-widget footer-widget--map">
+
+            <h2 class="footer-widget__title">Our Location</h2>
+
+            <div class="footer-map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15546.179893808741!2d80.19666674072126!3d13.06461014848268!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5267a8fd990fed%3A0xbdd3f49c041173e7!2sMillion%20Cabs%20Tourism%20%7C%20Arumbakkam!5e0!3m2!1sen!2sin!4v1788286478939!5m2!1sen!2sin"
+                    width="100%"
+                    height="300"
+                    style="border:0;"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="strict-origin-when-cross-origin">
+                </iframe>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+<!-- Footer Contact & Map End -->
+
+        </div>
+
+    </div>
+
+
+    <!-- Footer Bottom -->
+    <div class="footer-two__bottom">
+
+        <div class="container">
+
+            <div class="row gutter-y-30 align-items-center">
+
+                <!-- Logo -->
+                <div class="col-lg-3 col-md-6">
+
+                    <a href="#"
+                        class="footer-two__bottom-logo">
+
+                        <img src="assets/images/logo-dark-2.png"
+                            alt="Million Cabs"
+                            width="187" style="background-color: aliceblue;">
+
+                    </a>
+
+                </div>
+
+
+                <!-- Copyright -->
+                <div class="col-lg-6 col-md-6">
+
+                    <p class="footer-two__copyright">
+
+                        &copy; Copyright
+                        <span class="dynamic-year"></span>
+                        <span>Million Cabs. All Rights Reserved.</span>
+
+                    </p>
+
+                </div>
+
+
+                <!-- Social Media -->
+                <div class="col-lg-3">
+
+                    <div class="social-links">
+
+                       
+
+                       
+<!-- Instagram -->
+            <a href="https://www.instagram.com/millioncabtourism?igsi=Z2k2enQ5MW50eTd2"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram">
+
+                <i class="fab fa-instagram" aria-hidden="true"></i>
+
+                <span class="sr-only">
+                    Instagram
+                </span>
+
+            </a>
+
+
+            <!-- WhatsApp -->
+            <a href="https://wa.me/919003141664"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="WhatsApp">
+
+                <i class="fab fa-whatsapp" aria-hidden="true"></i>
+
+                <span class="sr-only">
+                    WhatsApp
+                </span>
+
+            </a>
+                        
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+<!-- Footer Map -->
+
+</footer>
+<!-- Footer End -->
+
+    </div><!-- /.page-wrapper -->
+   <div class="mobile-nav__wrapper">
+    <div class="mobile-nav__overlay mobile-nav__toggler"></div>
+    <!-- /.mobile-nav__overlay -->
+
+    <div class="mobile-nav__content">
+
+        <span class="mobile-nav__close mobile-nav__toggler">
+            <i class="fa fa-times"></i>
+        </span>
+
+        <div class="logo-box">
+            <a href="#" aria-label="logo image">
+                <img src="assets/images/logo-dark-2.png" width="187" alt="Million Cab Tourism" />
+            </a>
+        </div>
+        <!-- /.logo-box -->
+
+        <div class="mobile-nav__container"></div>
+        <!-- /.mobile-nav__container -->
+
+        <ul class="mobile-nav__contact list-unstyled">
+
+            <!-- Email -->
+           
+
+            <!-- Phone -->
+            <li>
+                <i class="fa fa-phone-alt"></i>
+                <a href="tel:+919003141664">
+                    +91 90031 41664
+                </a>
+            </li>
+
+        </ul>
+        <!-- /.mobile-nav__contact -->
+
+
+        <!-- Social Media -->
+        <div class="mobile-nav__social">
+
+            <!-- Instagram -->
+            <a href="https://www.instagram.com/millioncabtourism?igsi=Z2k2enQ5MW50eTd2"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram">
+
+                <i class="fab fa-instagram" aria-hidden="true"></i>
+
+                <span class="sr-only">
+                    Instagram
+                </span>
+
+            </a>
+
+
+            <!-- WhatsApp -->
+            <a href="https://wa.me/919003141664"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="WhatsApp">
+
+                <i class="fab fa-whatsapp" aria-hidden="true"></i>
+
+                <span class="sr-only">
+                    WhatsApp
+                </span>
+
+            </a>
+
+        </div>
+        <!-- /.mobile-nav__social -->
+
+    </div>
+    <!-- /.mobile-nav__content -->
+
+</div>
+    <!-- /.mobile-nav__wrapper -->
+    <div class="search-popup">
+        <div class="search-popup__overlay search-toggler"></div>
+        <!-- /.search-popup__overlay -->
+        <div class="search-popup__content">
+            <form role="search" method="get" class="search-popup__form" action="#">
+                <input type="text" id="search" placeholder="Search Here..." />
+                <button type="submit" aria-label="search submit" class="search-popup__btn trevlo-btn trevlo-btn--base">
+                    <span class="icon-search"></span>
+                </button>
+            </form>
+        </div>
+        <!-- /.search-popup__content -->
+    </div>
+    <!-- /.search-popup -->
+
+    <a href="#" data-target="html" class="scroll-to-target scroll-to-top">
+        <span class="scroll-to-top__text">back top</span>
+        <span class="scroll-to-top__wrapper"><span class="scroll-to-top__inner"></span></span>
+    </a>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+    const params = new URLSearchParams(window.location.search);
+    const destination = params.get("destination");
+
+    const destinationInput = document.getElementById("destination");
+
+    if (destination && destinationInput) {
+        destinationInput.value = destination;
+    }
+
+});
+</script>
+    <script src="assets/vendors/jquery/jquery-3.7.0.min.js"></script>
+    <script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendors/bootstrap-select/bootstrap-select.min.js"></script>
+    <script src="assets/vendors/jarallax/jarallax.min.js"></script>
+    <script src="assets/vendors/jquery-ui/jquery-ui.js"></script>
+    <script src="assets/vendors/jquery-ajaxchimp/jquery.ajaxchimp.min.js"></script>
+    <script src="assets/vendors/jquery-appear/jquery.appear.min.js"></script>
+    <script src="assets/vendors/jquery-circle-progress/jquery.circle-progress.min.js"></script>
+    <script src="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="assets/vendors/jquery-validate/jquery.validate.min.js"></script>
+    <script src="assets/vendors/nouislider/nouislider.min.js"></script>
+    <script src="assets/vendors/tiny-slider/tiny-slider.js"></script>
+    <script src="assets/vendors/wnumb/wNumb.min.js"></script>
+    <script src="assets/vendors/owl-carousel/js/owl.carousel.min.js"></script>
+    <script src="assets/vendors/owl-carousel/js/owlcarousel2-filter.min.js"></script>
+    <script src="assets/vendors/wow/wow.js"></script>
+    <script src="assets/vendors/tilt/tilt.jquery.js"></script>
+    <script src="assets/vendors/simpleParallax/simpleParallax.min.js"></script>
+    <script src="assets/vendors/imagesloaded/imagesloaded.min.js"></script>
+    <script src="assets/vendors/isotope/isotope.js"></script>
+    <script src="assets/vendors/countdown/countdown.min.js"></script>
+    <script src="assets/vendors/daterangepicker-master/moment.min.js"></script>
+    <script src="assets/vendors/daterangepicker-master/daterangepicker.js"></script>
+    <script src="assets/vendors/jquery-circleType/jquery.circleType.js"></script>
+    <script src="assets/vendors/jquery-lettering/jquery.lettering.min.js"></script>
+    <!-- template js -->
+    <script src="assets/js/trevlo.js"></script>
+</body>
+
+</html>
+
+<!-- client-carousel-shape-bg-2-1 -->
